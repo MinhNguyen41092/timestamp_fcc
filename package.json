@@ -8,6 +8,7 @@
   },
   "author": "Nguyen Dinh Minh",
   "license": "ISC",
+  "repository": "https://github.com/MinhNguyen41092/timestamp_fcc",
   "dependencies": {
     "express": "^4.15.4",
     "moment": "^2.18.1"
