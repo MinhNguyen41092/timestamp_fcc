@@ -27,4 +27,5 @@ app.get('/:query', (req, res) => {
   }
   res.send(processedDate);
 });
-app.listen(3000);
+// process.env.PORT: heroku port
+app.listen(process.env.PORT || 3000);
